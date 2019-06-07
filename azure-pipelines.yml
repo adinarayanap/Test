@@ -1,4 +1,7 @@
 # Starter pipeline
+- task: AzurePowerShell@4
+  inputs:
+    ScriptType: 'FilePath'
 - task: DotNetCoreCLI@2
   inputs:
     command: 'build'
